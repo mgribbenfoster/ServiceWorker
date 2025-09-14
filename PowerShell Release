@@ -1,0 +1,15 @@
+ARM64: PowerShell-7.5-win-arm64.msl
+Install
+c:\Program Files\PowerShell\7\
+Run
+c:\Program Files\PowerShell\7\pwsh.exe
+ {Presidential Deployment} 
+PowerShell     Code
+msiexeC.exe\i
+PowerShell-7.5.2-win-x64.msi /quiet
+ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1
+ADD_MB_TRANSPAR_WHISTLEBLOWER_RUNPOWERSHELL=1
+ENABLED_PSREMOTING=1  REGISTAR__MANIFESTED=1
+USE_MU=5 ENABLE_MU=1 ADD_PATH=1
+$PSVERSIONTABLE
+VERIFIED PSVERSION=7.5.2
